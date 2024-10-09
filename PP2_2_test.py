@@ -10,6 +10,13 @@ def test_q1_1(capsys):
 	except:
 		sys.exit()
 
+	input_values = ['knife']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
+
 	PP2_2.q1()
 	captured = capsys.readouterr()
 	assert captured.out == "In: -ives\n"
@@ -21,6 +28,13 @@ def test_q2_1(capsys):
 		assert exists
 	except:
 		sys.exit()
+
+	input_values = ['10']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
 
 	PP2_2.q2()
 	captured = capsys.readouterr()
@@ -34,6 +48,13 @@ def test_q1_2(capsys):
 	except:
 		sys.exit()
 
+	input_values = ['hey']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
+
 	PP2_2.q1()
 	captured = capsys.readouterr()
 	assert captured.out == "In: -eys\n"
@@ -45,6 +66,13 @@ def test_q2_2(capsys):
 		assert exists
 	except:
 		sys.exit()
+
+	input_values = ['0']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
 
 	PP2_2.q2()
 	captured = capsys.readouterr()
@@ -58,6 +86,13 @@ def test_q1_3(capsys):
 	except:
 		sys.exit()
 
+	input_values = ['helpp']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
+
 	PP2_2.q1()
 	captured = capsys.readouterr()
 	assert captured.out == "In: -s\n"
@@ -69,6 +104,13 @@ def test_q2_3(capsys):
 		assert exists
 	except:
 		sys.exit()
+
+	input_values = ['-3']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
 
 	PP2_2.q2()
 	captured = capsys.readouterr()
@@ -82,6 +124,13 @@ def test_q1_4(capsys):
 	except:
 		sys.exit()
 
+	input_values = ['Daisy']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
+
 	PP2_2.q1()
 	captured = capsys.readouterr()
 	assert captured.out == "In: -ies\n"
@@ -93,6 +142,13 @@ def test_q2_4(capsys):
 		assert exists
 	except:
 		sys.exit()
+
+	input_values = ['5']
+
+	def mock_input(s):
+		print(s, end='')
+		return input_values.pop(0)
+	PP2_2.input = mock_input
 
 	PP2_2.q2()
 	captured = capsys.readouterr()
