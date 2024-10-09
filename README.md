@@ -1,35 +1,49 @@
 # Instructions  
 
-# Practice Problem 2.1
+# Practice Problem 2.2
 
-1. The variable _num_ holds an integer from user input  Write a conditional statement that does the following:
+1.    The variable _word_ holds a string from user input
 
-- If num is even (divisible by 2), print "__ is even"
-- If num is odd, print "__ is odd"
+do the following tests:</br>
 
-Examples:
+If the word ends in "y", print "-ies":</br>
 
-```
-In: 23
-23 is odd
-```
-```
-In: 36
-36 is even
-```
+If the word ends in "ey", print "-eys":</br>
 
-2. The variable _name_ holds a String from user input.  Write a conditional statement that does the following:
+If the word ends in "ife", print "-ives":</br>
 
-- If name is equal to "Kalisz", print "teacher"
-- For any other input, print "student"
+If none of the above is true, print "-s":</br>
+
+No more than one should be printed.:</br>
 
 Examples:
 
 ```
-In: Kalisz
-teacher
+In: Daisy
+-ies
+```
+In: life
+-ives
+```
+In: help
+-s
+```
+
+2.The variable _num_ holds an integer user inputWrite a conditional statement that does the following:
+
+- If num is positive, print "__ is positive"
+- If num is negative, print "__ is negative"
+
+Examples:
+
+```
+In: 5
+5 is positive
 ```
 ```
-In: Faa
-student
+In: -2
+-2 is negative
 ```
+In: 0
+```
+(no output for zero)   
