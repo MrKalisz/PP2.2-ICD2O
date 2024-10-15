@@ -2,48 +2,18 @@
 
 # Practice Problem 2.2
 
-1.    The variable _word_ holds a string from user input
+1. Ask the user to "Input an integer: ".</br>
+If the integer is 5, output "The number is Five"</br>
+Otherwise, output "The number is not Five"</br>
 
-do the following tests:</br>
+2. Ask the user to "Input a number: ".</br>
+If the number is positive, output "Positive"</br>
+Otherwise, output "Negative" (This includes 0)</br>
 
-If the word ends in "y", print "-ies":</br>
+3. Ask the user to "Input an integer: ".</br>
+If the integer is even, output "Even"</br>
+Otherwise, output "Odd"</br>
 
-If the word ends in "ey", print "-eys":</br>
-
-If the word ends in "ife", print "-ives":</br>
-
-If none of the above is true, print "-s":</br>
-
-No more than one should be printed.:</br>
-
-Examples:
-
-```
-In: Daisy
--ies
-```
-In: life
--ives
-```
-In: help
--s
-```
-
-2.The variable _num_ holds an integer user inputWrite a conditional statement that does the following:
-
-- If num is positive, print "__ is positive"
-- If num is negative, print "__ is negative"
-
-Examples:
-
-```
-In: 5
-5 is positive
-```
-```
-In: -2
--2 is negative
-```
-In: 0
-```
-(no output for zero)   
+4. Ask the user to 'Type "Hello": '.</br>
+If the String is "Hello", output "The word is Hello"</br>
+Otherwise, output "The word is not Hello"</br>
